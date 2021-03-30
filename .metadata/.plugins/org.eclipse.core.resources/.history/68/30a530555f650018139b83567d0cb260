@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function state()
+	{
+		var cn = document.getElementById("country");
+		var st = document.getElementById("state");
+		htp.onreadystatechange=function()
+		{
+			if(htp.readyState==4)
+				{
+					alert(htp.responseText);
+				}
+		}
+		htp.open("get","two.jsp?cn="+cn.value,true);
+		htp.send();
+		}
+	}
+</script>
+</head>
+<body>
+	<form method="get">
+	Country
+	<select id="country" onchange="state()">
+		<option value="india">India</option>
+		<option value="USA">USA</option>
+	</select>
+	State
+	<select id="state">
+	</select>
+	</form>
+</body>
+</html>

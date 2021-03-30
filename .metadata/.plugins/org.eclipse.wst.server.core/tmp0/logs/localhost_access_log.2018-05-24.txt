@@ -1,0 +1,9 @@
+127.0.0.1 - - [24/May/2018:11:30:01 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [24/May/2018:11:30:03 +0530] "GET /springsignin/index.jsp HTTP/1.1" 200 313
+0:0:0:0:0:0:0:1 - - [24/May/2018:11:30:03 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [24/May/2018:11:30:07 +0530] "GET /springsignin/signup.html HTTP/1.1" 404 1066
+127.0.0.1 - - [24/May/2018:11:30:53 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [24/May/2018:11:30:53 +0530] "GET /springsignin/index.jsp HTTP/1.1" 200 313
+0:0:0:0:0:0:0:1 - - [24/May/2018:11:31:00 +0530] "GET /springsignin/signup.html HTTP/1.1" 200 457
+0:0:0:0:0:0:0:1 - - [24/May/2018:11:31:06 +0530] "GET /springsignin/verify.html?un=admin&pass=admin HTTP/1.1" 200 273
+0:0:0:0:0:0:0:1 - - [24/May/2018:11:31:11 +0530] "GET /springsignin/verify.html?un=admin&pass=admi HTTP/1.1" 200 457

@@ -1,0 +1,10 @@
+127.0.0.1 - - [09/Mar/2018:18:23:55 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [09/Mar/2018:18:24:03 +0530] "GET /mvc_demo/registration.jsp HTTP/1.1" 200 465
+0:0:0:0:0:0:0:1 - - [09/Mar/2018:18:24:09 +0530] "GET /mvc_demo/Reg?reg_fn=sahil&reg_ln=shethiya HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [09/Mar/2018:18:24:47 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+127.0.0.1 - - [09/Mar/2018:18:25:31 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [09/Mar/2018:18:25:32 +0530] "GET /mvc_demo/registration.jsp HTTP/1.1" 200 465
+0:0:0:0:0:0:0:1 - - [09/Mar/2018:18:25:38 +0530] "GET /mvc_demo/Reg?reg_fn=sahil&reg_ln=shethiya HTTP/1.1" 200 -
+127.0.0.1 - - [09/Mar/2018:18:27:32 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [09/Mar/2018:18:27:32 +0530] "GET /mvc_demo/registration.jsp HTTP/1.1" 200 465
+0:0:0:0:0:0:0:1 - - [09/Mar/2018:18:27:38 +0530] "GET /mvc_demo/Reg?reg_fn=sahil&reg_ln=shethiya HTTP/1.1" 200 -

@@ -1,0 +1,4 @@
+127.0.0.1 - - [04/Apr/2018:20:17:25 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [04/Apr/2018:20:17:27 +0530] "GET /javabean_demo/index.jsp HTTP/1.1" 200 416
+0:0:0:0:0:0:0:1 - - [04/Apr/2018:20:17:27 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [04/Apr/2018:20:17:33 +0530] "GET /javabean_demo/next.jsp?username=SAHIL HTTP/1.1" 200 297

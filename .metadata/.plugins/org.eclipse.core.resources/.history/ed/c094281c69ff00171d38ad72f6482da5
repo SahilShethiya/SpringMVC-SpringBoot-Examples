@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<%@page import="java.sql.*" %>
+<%
+	String s1 = request.getParameter("ed_fname");
+	String s2 = request.getParameter("ed_lname");
+	String new_id = request.getParameter("new1");
+	String new1 = request.getParameter("new_id");
+	Class.forName("com.mysql.jdbc.Driver");
+	Connection con = DriverManager.getConnection("jdbc:mysql://localhost/dynamic_deletedb","root","root");
+	Statement s = con.createStatement();
+	ResultSet rs = s.executeUpdate("update data1 set f_name='"+s1+"' AND l_name='"s2+"' where ");
+%>
+</body>
+</html>
